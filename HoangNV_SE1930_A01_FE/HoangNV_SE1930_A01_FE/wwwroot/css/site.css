@@ -1,0 +1,93 @@
+/* FUNews Management System - Modern UI Styles */
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: #212529;
+    background-color: #f8fafc;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    letter-spacing: -0.5px;
+}
+
+.card {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(13, 110, 253, 0.04);
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.modal-content {
+    border-radius: 1rem;
+    border: none;
+}
+
+.modal-header {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.btn {
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+
+.btn-lg {
+    border-radius: 0.75rem;
+}
+
+.form-control, .form-select {
+    border-radius: 0.5rem;
+    padding: 0.6rem 0.85rem;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+/* Status Badges */
+.badge-active {
+    background-color: #198754;
+    color: white;
+}
+
+.badge-inactive {
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Ensure badges with light/subtle backgrounds always have black/dark text */
+.badge.bg-light,
+.badge.bg-secondary-subtle,
+.badge.bg-info-subtle,
+.badge.text-dark {
+    color: #212529 !important;
+}
+
+/* Fallback styling for Bootstrap 5.1 compatibility */
+.bg-info-subtle {
+    background-color: #e0f2fe !important;
+}
+.text-info-emphasis {
+    color: #0369a1 !important;
+}
+.bg-secondary-subtle {
+    background-color: #f1f5f9 !important;
+}
+.text-secondary-emphasis {
+    color: #334155 !important;
+}
+.bg-success-subtle {
+    background-color: #dcfce7 !important;
+}
+.bg-danger-subtle {
+    background-color: #fee2e2 !important;
+}
+.bg-primary-subtle {
+    background-color: #e0e7ff !important;
+}
